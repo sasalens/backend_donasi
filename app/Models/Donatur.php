@@ -14,7 +14,7 @@ class Donatur extends Authenticatable
     use HasFactory;
 
     protected $fillable = [
-        'name', 'email', 'password', 'avatar'
+        'name', 'email', 'nohp', 'password', 'avatar'
     ];
 
     protected $hidden = [

@@ -26,8 +26,11 @@
                 <table class="min-w-full table-auto">
                     <thead class="justify-between">
                         <tr class="bg-gray-600 w-full">
-                            <th class="px-16 py-2">
+                            <th class="px-16 py-2 text-left">
                                 <span class="text-white">NAMA LENGKAP</span>
+                            </th>
+                            <th class="px-16 py-2 text-left">
+                                <span class="text-white">NOMOR HP</span>
                             </th>
                             <th class="px-16 py-2 text-left">
                                 <span class="text-white">EMAIL</span>
@@ -38,8 +41,12 @@
                         @forelse($donaturs as $donatur)
                             <tr class="border bg-white">
         
-                                <td class="px-5 py-2">
+                                <td class="px-16 py-2">
                                     {{ $donatur->name }}
+                                </td>
+
+                                <td class="px-16 py-2">
+                                    {{ $donatur->nohp }}
                                 </td>
 
                                 <td class="px-16 py-2">

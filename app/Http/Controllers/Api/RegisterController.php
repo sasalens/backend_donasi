@@ -21,6 +21,7 @@ class RegisterController extends Controller
         //set validasi
         $validator = Validator::make($request->all(), [
             'name'      => 'required',
+            'nohp'      => 'required',
             'email'     => 'required|email|unique:donaturs',
             'password'  => 'required|min:8|confirmed'
         ]);
@@ -32,6 +33,7 @@ class RegisterController extends Controller
         //create donatur
         $donatur = Donatur::create([
             'name'      => $request->name,
+            'nohp'      => $request->nohp,
             'email'     => $request->email,
             'password'  => Hash::make($request->password)
         ]);

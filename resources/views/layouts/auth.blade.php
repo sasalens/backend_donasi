@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
         <link rel="canonical" href="/login">
-        <link rel="shortcut icon" type="image/jpg" href="https://i.imgur.com/UyXqJLi.png" />
+        <link rel="shortcut icon" type="image/jpg" href="https://i.imgur.com/dqsSRUC.png" />
         <title>{{ $title }}</title>
         <!-- CSS -->
         @vite('resources/css/app.css')
