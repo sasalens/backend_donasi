@@ -30,7 +30,7 @@
                 <table class="min-w-full table-auto">
                     <thead class="justify-between">
                         <tr class="bg-gray-600 w-full">
-                            <th class="px-16 py-2" style="width: 40%">
+                            <th class="px-16 py-2 text-left" style="width: %;">
                                 <span class="text-white">JUDUL CAMPAIGN</span>
                             </th>
                             <th class="px-16 py-2 text-left">
@@ -51,7 +51,7 @@
                         @forelse($campaigns as $campaign)
                             <tr class="border bg-white">
         
-                                <td class="px-5 py-2">
+                                <td class="px-16 py-2">
                                     {{ $campaign->title }}
                                 </td>
                                 <td class="px-16 py-2">

@@ -63,12 +63,12 @@
                             <tr class="border bg-white">
         
                                 <td class="px-16 py-2 flex justify-center">
-                                    <img src="{{ $slider->image }}" class="object-fit-cover rounded" style="width: 35%">
+                                    <img src="{{ $slider->image }}" class="object-fit-cover rounded" style="width: 60%">
                                 </td>
-                                <td class="px-16 py-2">
+                                <td class="px-16 py-2"> 
                                     {{ $slider->link }}
                                 </td>
-                                <td class="px-10 py-2 text-center">
+                                <td class="px-16 py-2 text-center">
                                     <button onClick="destroy(this.id)" id="{{ $slider->id }}" class="bg-red-600 px-4 py-2 rounded shadow-sm text-xs text-white focus:outline-none">HAPUS</button>
                                 </td>
                             </tr>
